@@ -1,0 +1,25 @@
+Jewelry Database Processing Project
+This project involves working with a jewelry database to perform data extraction, transformation, and code migration tasks. The steps carried out are as follows:
+
+1. Code Conversion
+The initial code provided was written in R.
+Successfully converted the R code to Python, ensuring equivalent functionality and output.
+2. Dataset Extraction
+Extracted the processed dataset and saved it in CSV format for further analysis.
+3. Data Transformation
+Several transformations were performed on the dataset to make it more structured and usable:
+
+Date Column Split:
+
+The date column was split into two new columns:
+date: Containing the date part.
+time: Containing the time part.
+Column Alias Split:
+
+The column_alias column was further split into meaningful sub-components for improved clarity and analysis.
+Tools and Technologies Used
+Languages: Python (Conversion from R)
+Libraries:
+pandas (for data manipulation)
+csv (for file handling)
+File Format: CSV
