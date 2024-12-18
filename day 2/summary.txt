@@ -1,0 +1,30 @@
+Here’s a concise summary of your Jupyter Notebook content for your GitHub repository:
+
+---
+
+ Summary of Work Done:
+
+1. Imported Required Libraries:
+   - Utilized `pandas` for data manipulation.
+   - Included warnings handling for better script management.
+
+2. Explored Dataset:
+   - Used `df.info()` to inspect the structure and types of data.
+   - Checked for missing values using `df.isna().sum()`.
+
+3. Data Cleaning:
+   - Filled missing values in the `Gender` column with 'f'.
+   - Dropped the `Quantity` column as it was deemed unnecessary.
+   - Investigated and filled missing values in the `USDPrice` column based on related attributes like `Gem` and `Metal`.
+
+4. Filtered Data:
+   - Removed records with missing values in critical columns (`USDPrice` and `UserID`).
+   - Replaced missing values in `CategoryCode` and `BrandID` with defaults.
+
+5. Data Transformation:
+   - Processed categorical features like `Gem`, `Metal`, and `Color`.
+   - Modified `Datetime` column to retain only the date portion.
+
+6. Generated Analytical Views:
+   - Created a pivot table summarizing sales data indexed by `Datetime`.
+
